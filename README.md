@@ -23,9 +23,9 @@ xmake build
 ### Build Output (Optional)
 If you want to redirect the build output, set one of or both of the following environment variables:
 
-- Path(s) to a Starfield install folder: `XSE_SF_GAME_PATH`
+- Path to a Starfield install folder: `XSE_SF_GAME_PATH`
 
-- Path(s) to a Mod Manager mods folder: `XSE_SF_MODS_PATH`
+- Path to a Mod Manager mods folder: `XSE_SF_MODS_PATH`
 
 ### Project Generation (Optional)
 If you want to generate a Visual Studio project, run the following command:
