@@ -29,7 +29,7 @@ target("commonlibsf-template")
     add_rules("commonlibsf.plugin", {
         name = "commonlibsf-template",
         author = "Author Name",
-        description = "Plugin Description",
+        description = "SFSE plugin template using CommonLibSF",
         email = "user@site.com"
     })
 
