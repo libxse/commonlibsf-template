@@ -17,7 +17,7 @@ set_warnings("allextra")
 set_policy("package.requires_lock", true)
 
 -- add rules
-add_rules("mode.releasedbg", "mode.debug")
+add_rules("mode.debug", "mode.releasedbg")
 add_rules("plugin.vsxmake.autoupdate")
 
 -- setup targets
