@@ -33,8 +33,8 @@ target("commonlibsf-template")
         email = "user@site.com"
     })
 
-    -- add source files
-    add_files("src/*.cpp")
-    add_headerfiles("src/*.h")
+    -- add src files
+    add_files("src/**.cpp")
+    add_headerfiles("src/**.h")
     add_includedirs("src")
     set_pcxxheader("src/pch.h")
