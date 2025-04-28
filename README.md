@@ -8,7 +8,7 @@ This is a basic plugin template using CommonLibSF.
 
 ## Getting Started
 ```properties
-git clone --recurse-submodules https://github.com/qudix/commonlibsf-template
+git clone --recurse-submodules https://github.com/libxse/commonlibsf-template
 cd commonlibsf-template
 ```
 
