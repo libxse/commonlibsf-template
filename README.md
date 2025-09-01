@@ -21,7 +21,7 @@ xmake build
 > ***Note:*** *This will generate a `build/windows/` directory in the **project's root directory** with the build output.*
 
 ### Build Output (Optional)
-If you want to redirect the build output, set one of or both of the following environment variables:
+If you want to redirect the build output, set one of the following environment variables:
 
 - Path to a Starfield install folder: `XSE_SF_GAME_PATH`
 
