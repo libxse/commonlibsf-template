@@ -5,8 +5,8 @@ set_xmakever("2.8.2")
 includes("lib/commonlibsf")
 
 -- set project
-set_project("commonlibsf-template")
-set_version("0.0.0")
+set_project("NodePlugin")
+set_version("1.0.0")
 set_license("GPL-3.0")
 
 -- set defaults
@@ -21,16 +21,15 @@ add_rules("mode.debug", "mode.releasedbg")
 add_rules("plugin.vsxmake.autoupdate")
 
 -- setup targets
-target("commonlibsf-template")
+target("NodePlugin")
     -- add dependencies to target
     add_deps("commonlibsf")
 
     -- add commonlibsf plugin
     add_rules("commonlibsf.plugin", {
-        name = "commonlibsf-template",
-        author = "Author Name",
-        description = "SFSE plugin template using CommonLibSF",
-        email = "user@site.com"
+        name = "NodePlugin",
+        author = "DarthSidious666",
+        description = "SFSE plugin using CommonLibSF",
     })
 
     -- add src files
