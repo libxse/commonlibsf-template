@@ -1,34 +1,25 @@
 -- set minimum xmake version
-set_xmakever("2.8.2")
+set_xmakever("3.0.0")
 
--- includes
+-- include subprojects
 includes("lib/commonlibsf")
 
--- set project
+-- set project constants
 set_project("commonlibsf-template")
 set_version("0.0.0")
 set_license("GPL-3.0")
-
--- set defaults
 set_languages("c++23")
 set_warnings("allextra")
 
--- set policies
-set_policy("package.requires_lock", true)
-
--- add rules
+-- add common rules
 add_rules("mode.debug", "mode.releasedbg")
 add_rules("plugin.vsxmake.autoupdate")
 
--- setup targets
+-- define targets
 target("commonlibsf-template")
-    -- add dependencies to target
-    add_deps("commonlibsf")
-
-    -- add commonlibsf plugin
     add_rules("commonlibsf.plugin", {
         name = "commonlibsf-template",
-        author = "Author Name",
+        author = "libxse",
         description = "SFSE plugin template using CommonLibSF",
         email = "user@site.com"
     })
